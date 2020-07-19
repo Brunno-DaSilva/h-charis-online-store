@@ -1,0 +1,43 @@
+.info-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100vw;
+  margin-bottom: 2rem;
+  border: 1px solid #e5e5e5;
+
+  .info-left,
+  .info-right {
+    display: flex;
+    justify-content: space-evenly;
+    flex: 1 1 auto;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+
+    border-right: 1px solid #e5e5e5;
+
+    .info-icons {
+      padding: 0 0.5rem;
+    }
+  }
+  .info-left {
+    .left__email-service,
+    .left__phone-service,
+    .left__social-media {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 33%;
+    }
+  }
+  .info-right {
+    .right__login {
+      width: 100%;
+    }
+  }
+}
