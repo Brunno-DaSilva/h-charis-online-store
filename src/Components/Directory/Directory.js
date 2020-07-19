@@ -37,6 +37,22 @@ class Directory extends Component {
         id: 5,
         linkUrl: "shop/mens",
       },
+      {
+        title: "kids",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595194741/h-charis-online-store/ian-pic_bp4x1p.jpg",
+        size: "large",
+        id: 6,
+        linkUrl: "shop/kids",
+      },
+      {
+        title: "house",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595194539/h-charis-online-store/family6_oqxczh.jpg",
+        size: "large",
+        id: 6,
+        linkUrl: "shop/house",
+      },
     ],
   };
 

@@ -1,3 +1,8 @@
+:root {
+  --dark-nav-bg: #252525;
+  --main-active-bg: #ffdcba;
+}
+
 body {
   font-family: "Open Sans Condensed", sans-serif;
 }
