@@ -5,4 +5,10 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+  /* padding: 1.25rem 3.75rem; */
+}
+
+a {
+  text-decoration: none;
+  color: var(--dark-nav-bg);
 }

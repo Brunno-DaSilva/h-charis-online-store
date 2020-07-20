@@ -1,9 +1,10 @@
 .info-container {
   display: flex;
   justify-content: space-evenly;
-  width: 100vw;
-  margin-bottom: 2rem;
+  width: 100%;
+  margin-bottom: 0rem;
   border: 1px solid #e5e5e5;
+  border-bottom: none;
 
   .info-left,
   .info-right {

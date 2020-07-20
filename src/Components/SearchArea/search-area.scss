@@ -1,0 +1,25 @@
+.search-container {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  border: 1px solid #e5e5e5;
+  .search__logo-container {
+    height: auto;
+    width: 190px;
+    padding: -1px;
+  }
+
+  .search__options {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .options--option {
+      padding: 10px 15px;
+    }
+  }
+}
