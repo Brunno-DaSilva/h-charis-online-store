@@ -30,6 +30,7 @@ $main-color: #252525;
 
     &:focus ~ .form-input-label {
       @include shrinkLabel();
+      color: $sub-color;
     }
   }
 
@@ -49,6 +50,7 @@ $main-color: #252525;
 
     &.shrink {
       @include shrinkLabel();
+      color: $sub-color;
     }
   }
 }
