@@ -1,18 +1,18 @@
 .header {
-  height: 70px;
+  height: 7rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-bottom: 25px;
   border: 1px solid #e5e5e5;
   .logo-container {
     height: auto;
-    width: 190px;
-    padding: -1px;
+    width: 11.875rem;
   }
 
   .options {
-    width: 50%;
+    width: 35%;
     height: 100%;
     display: flex;
     align-items: center;

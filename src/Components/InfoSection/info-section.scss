@@ -1,9 +1,14 @@
+$sub-color: #c0c0c0;
+$main-color: #252525;
+$border-color: #e5e5e5;
+$main-active-bg: #ffdcba;
+
 .info-container {
   display: flex;
   justify-content: space-evenly;
   width: 100%;
   margin-bottom: 0rem;
-  border: 1px solid #e5e5e5;
+  border: 1px solid $border-color;
   border-bottom: none;
 
   .info-left,
@@ -14,14 +19,16 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #212529;
+    color: $sub-color;
     text-align: left;
     padding-top: 15px;
     padding-bottom: 12px;
     padding-left: 20px;
+    border-right: 1px solid $border-color;
 
-    border-right: 1px solid #e5e5e5;
-
+    span {
+      color: $main-color;
+    }
     .info-icons {
       padding: 0 0.5rem;
     }
