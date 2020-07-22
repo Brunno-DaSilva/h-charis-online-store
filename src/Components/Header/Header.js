@@ -4,6 +4,9 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-01.svg";
 import SearchArea from "../SearchArea/SearchArea";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+
 import "./header.scss";
 
 const Header = () => {
@@ -23,6 +26,9 @@ const Header = () => {
           </Link>
           <Link className="option" to="/contact">
             CONTACT
+          </Link>
+          <Link className="option" to="/contact">
+            <FontAwesomeIcon className="info-icons" icon={faShoppingBag} />
           </Link>
         </div>
       </div>
