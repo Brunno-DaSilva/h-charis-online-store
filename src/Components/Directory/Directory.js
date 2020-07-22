@@ -36,7 +36,8 @@ class Directory extends Component {
       },
       {
         title: "mens",
-        imageUrl: "https://i.ibb.co/R70vBrQ/men.png",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595378590/h-charis-online-store/male_smile_jy8baq.jpg",
         size: "large",
         id: 5,
         linkUrl: "shop/mens",

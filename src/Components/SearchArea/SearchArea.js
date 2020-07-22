@@ -12,6 +12,7 @@ const SearchArea = () => {
           className="search-box"
           type="text"
           label="search"
+          placeholder="search"
           name="search"
         />
         <button id="search-btn" type="submit">
