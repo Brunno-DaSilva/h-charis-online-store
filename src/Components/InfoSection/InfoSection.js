@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faUser } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -7,9 +9,11 @@ import {
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-import "./info-section.scss";
 
-const InfoSection = () => {
+import "./info-section.scss";
+import { auth } from "../../firebase/firebase";
+
+const InfoSection = ({ currentUser }) => {
   return (
     <div className="info-container">
       <div className="info-left">
@@ -31,7 +35,15 @@ const InfoSection = () => {
       <div className="info-right">
         <div className="right__login">
           <FontAwesomeIcon className="info-icons" icon={faUser} />{" "}
-          <span>Login</span>
+          {currentUser ? (
+            <span className="option" onClick={() => auth.signOut()}>
+              Log Out
+            </span>
+          ) : (
+            <Link className="option" to="/sign-in">
+              Login
+            </Link>
+          )}
         </div>
       </div>
     </div>

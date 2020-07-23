@@ -1,14 +1,15 @@
 $dark-nav-bg: #252525;
 $main-active-bg: #ffdcba;
+$light-gray: #c0c0c0;
 
 .custom-button {
   min-width: 10.3125rem;
   width: auto;
   height: 3.12rem;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
   line-height: 3.12rem;
   padding: 0 2.18rem 0 2.18rem;
-  font-size: 0.937rem;
+  font-size: 0.72rem;
   background-color: var(--main-active-bg);
   color: var(--dark-nav-bg);
   text-transform: uppercase;
@@ -21,5 +22,14 @@ $main-active-bg: #ffdcba;
     background-color: #ffffff;
     color: var(--dark-nav-bg);
     border: 1px solid var(--dark-nav-bg);
+  }
+
+  &.google-sign-in {
+    background: $light-gray;
+    color: $dark-nav-bg;
+    &:hover {
+      background-color: #ffffff;
+      border: 1px solid var(--dark-nav-bg);
+    }
   }
 }

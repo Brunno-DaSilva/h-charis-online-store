@@ -13,7 +13,7 @@ class Directory extends Component {
         linkUrl: "shop/hats",
       },
       {
-        title: "JACKETS & COATS",
+        title: "JACKETS",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1595212188/h-charis-online-store/marcos-rivas-OZokCdO5goI-unsplash_gwivix.jpg",
         id: 2,
@@ -55,7 +55,7 @@ class Directory extends Component {
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1595194539/h-charis-online-store/family6_oqxczh.jpg",
         size: "large",
-        id: 6,
+        id: 7,
         linkUrl: "shop/house",
       },
     ],
