@@ -1,6 +1,28 @@
 .sign-in-and-sign-up {
   width: 850px;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin: 30px auto;
+
+  .btn-sign-up {
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    width: 30%;
+    background: transparent;
+    border: none;
+    color: #252525;
+    transition: ease-in-out 0.35s;
+    &:hover {
+      cursor: pointer;
+      color: #fcba78;
+    }
+  }
+
+  .container-sign-in-and-up {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
