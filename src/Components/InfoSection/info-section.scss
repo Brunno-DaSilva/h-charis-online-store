@@ -32,6 +32,14 @@ $main-active-bg: #ffdcba;
     .info-icons {
       padding: 0 0.5rem;
     }
+    .social {
+      transition: ease-in-out 0.5s;
+
+      &:hover {
+        cursor: pointer;
+        color: $main-active-bg;
+      }
+    }
   }
   .info-left {
     .left__email-service,

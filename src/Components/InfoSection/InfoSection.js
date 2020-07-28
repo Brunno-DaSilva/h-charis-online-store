@@ -26,10 +26,10 @@ const InfoSection = ({ currentUser }) => {
           <span>+1 955.555.5555</span>
         </div>
         <div className="left__social-media">
-          <FontAwesomeIcon className="info-icons" icon={faFacebook} />
-          <FontAwesomeIcon className="info-icons" icon={faPinterest} />
-          <FontAwesomeIcon className="info-icons" icon={faTwitter} />
-          <FontAwesomeIcon className="info-icons" icon={faLinkedin} />
+          <FontAwesomeIcon className="info-icons social" icon={faFacebook} />
+          <FontAwesomeIcon className="info-icons social" icon={faPinterest} />
+          <FontAwesomeIcon className="info-icons social" icon={faTwitter} />
+          <FontAwesomeIcon className="info-icons social" icon={faLinkedin} />
         </div>
       </div>
       <div className="info-right">

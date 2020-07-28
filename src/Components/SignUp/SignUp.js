@@ -53,7 +53,7 @@ class SignUp extends Component {
       <div className="sign-up">
         <h2 className="title">Sign Up</h2>
         <p className="sign-up-desc">
-          With a H-Charis.com account, enjoy exclusive,benefits that make
+          With a H-Charis.com account, enjoy exclusive, benefits that make
           shopping faster and easier!
         </p>
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
