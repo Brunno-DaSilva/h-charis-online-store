@@ -31,8 +31,11 @@ class SignIn extends Component {
   render() {
     return (
       <div className="sign-in">
-        <h2>I already have an account</h2>
-        <span>Sign in with your email and password</span>
+        <h2>Sign In</h2>
+        <p className="sign-in-desc">
+          Sign in to your H-Charis.com account to shop, check out or track your
+          order.
+        </p>
         <form onSubmit={this.handleSubmit}>
           <FormInput
             name="email"

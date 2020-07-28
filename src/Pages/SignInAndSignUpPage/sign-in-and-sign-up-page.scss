@@ -2,14 +2,14 @@
   width: 850px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   margin: 30px auto;
 
   .btn-sign-up {
     margin-top: 1rem;
     font-size: 1.1rem;
-    width: 30%;
+    width: 35%;
     background: transparent;
     border: none;
     color: #252525;

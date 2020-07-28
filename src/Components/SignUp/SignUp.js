@@ -51,8 +51,11 @@ class SignUp extends Component {
     const { displayName, email, password, confirmPassword } = this.state;
     return (
       <div className="sign-up">
-        <h2 className="title">I do not have an account</h2>
-        <span>Sign up with your email and password</span>
+        <h2 className="title">Sign Up</h2>
+        <p className="sign-up-desc">
+          With a H-Charis.com account, enjoy exclusive,benefits that make
+          shopping faster and easier!
+        </p>
         <form className="sign-up-form" onSubmit={this.handleSubmit}>
           <FormInput
             type="text"
