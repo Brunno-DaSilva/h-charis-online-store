@@ -40,7 +40,7 @@ class SignIn extends Component {
           <FormInput
             name="email"
             type="email"
-            label="email"
+            label="Email"
             required
             value={this.state.email}
             handleChange={this.handleChange}
@@ -49,7 +49,7 @@ class SignIn extends Component {
           <FormInput
             name="password"
             type="password"
-            label="password"
+            label="Password"
             required
             value={this.state.password}
             handleChange={this.handleChange}
