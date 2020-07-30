@@ -9,10 +9,10 @@ import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
 
 import "./header.scss";
 
-const Header = ({ currentUser }) => {
+const Header = () => {
   return (
     <>
-      <InfoSection currentUser={currentUser} />
+      <InfoSection />
       <div className="header">
         <Link className="logo-container" to="/">
           <Logo className="logo" />
