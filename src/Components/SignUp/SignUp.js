@@ -89,6 +89,10 @@ class SignUp extends Component {
             label="Confirm Password"
             required
           />
+          <p className="sign-up-desc">
+            By creating an account, you agree to H-Charis's Security & Privacy
+            Policy and Legal Notices.
+          </p>
           <CustomButton type="submit">Sign Up</CustomButton>
         </form>
       </div>
