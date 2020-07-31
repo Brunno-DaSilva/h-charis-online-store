@@ -3,9 +3,8 @@ import InfoSection from "../InfoSection/InfoSection";
 import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-01.svg";
 import SearchArea from "../SearchArea/SearchArea";
-import { auth } from "../../firebase/firebase";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faShoppingBag } from "@fortawesome/free-solid-svg-icons";
+
+import CartIcon from "../CartIcon/CartIcon";
 
 import "./header.scss";
 
@@ -28,7 +27,7 @@ const Header = () => {
             CONTACT
           </Link>
           <Link className="option" to="/contact">
-            <FontAwesomeIcon className="info-icons" icon={faShoppingBag} />
+            <CartIcon />
           </Link>
         </div>
       </div>
