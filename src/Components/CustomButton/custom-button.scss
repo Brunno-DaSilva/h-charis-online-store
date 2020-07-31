@@ -17,6 +17,8 @@ $light-gray: #c0c0c0;
   border: none;
   cursor: pointer;
   transition: ease-in-out 0.3s;
+  display: flex;
+  justify-content: center;
 
   &:hover {
     background-color: #ffffff;
@@ -30,6 +32,18 @@ $light-gray: #c0c0c0;
     &:hover {
       background-color: #ffffff;
       border: 1px solid var(--dark-nav-bg);
+    }
+  }
+  &.inverted {
+    color: $dark-nav-bg;
+    background-color: #ffffff;
+    border: 1px solid var(--dark-nav-bg);
+
+    &:hover {
+      background-color: #ffffff;
+      border: none;
+      background-color: var(--main-active-bg);
+      color: var(--dark-nav-bg);
     }
   }
 }
