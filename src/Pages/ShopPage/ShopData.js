@@ -68,49 +68,57 @@ const SHOP_DATA = [
       {
         id: 10,
         name: "Adidas NMD",
-        imageUrl: "https://i.ibb.co/0s3pdnc/adidas-nmd.png",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341615/h-charis-online-store/Sneakers/sn-08_qc0mib.jpg",
         price: 220,
       },
       {
         id: 11,
         name: "Adidas Yeezy",
-        imageUrl: "https://i.ibb.co/dJbG1cT/yeezy.png",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341614/h-charis-online-store/Sneakers/sn-07_osm9us.jpg",
         price: 280,
       },
       {
         id: 12,
-        name: "Black Converse",
-        imageUrl: "https://i.ibb.co/bPmVXyP/black-converse.png",
+        name: "Black Adidas",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341614/h-charis-online-store/Sneakers/sn-06_uha9ha.jpg",
         price: 110,
       },
       {
         id: 13,
         name: "Nike White AirForce",
-        imageUrl: "https://i.ibb.co/1RcFPk0/white-nike-high-tops.png",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341615/h-charis-online-store/Sneakers/sn-01_yozjlw.jpg",
         price: 160,
       },
       {
         id: 14,
         name: "Nike Red High Tops",
-        imageUrl: "https://i.ibb.co/QcvzydB/nikes-red.png",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341614/h-charis-online-store/Sneakers/sn-02_f2jgu1.jpg",
         price: 160,
       },
       {
         id: 15,
         name: "Nike Brown High Tops",
-        imageUrl: "https://i.ibb.co/fMTV342/nike-brown.png",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341614/h-charis-online-store/Sneakers/sn-04_tz5c2e.jpg",
         price: 160,
       },
       {
         id: 16,
-        name: "Air Jordan Limited",
-        imageUrl: "https://i.ibb.co/w4k6Ws9/nike-funky.png",
+        name: "Air Nike Limited",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341614/h-charis-online-store/Sneakers/sn-03_mgavs8.jpg",
         price: 190,
       },
       {
         id: 17,
-        name: "Timberlands",
-        imageUrl: "https://i.ibb.co/Mhh6wBg/timberlands.png",
+        name: "Adidas Air",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341614/h-charis-online-store/Sneakers/sn-05_hwszok.jpg",
         price: 200,
       },
     ],
@@ -241,6 +249,112 @@ const SHOP_DATA = [
         name: "Burgundy T-shirt",
         imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
         price: 25,
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Kids",
+    routeName: "kids",
+    items: [
+      {
+        id: 36,
+        name: "Camo Down Vest",
+        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
+        price: 325,
+      },
+      {
+        id: 37,
+        name: "Floral T-shirt",
+        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
+        price: 20,
+      },
+      {
+        id: 38,
+        name: "Black & White Longsleeve",
+        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        price: 25,
+      },
+      {
+        id: 39,
+        name: "Pink T-shirt",
+        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
+        price: 25,
+      },
+      {
+        id: 40,
+        name: "Jean Long Sleeve",
+        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
+        price: 40,
+      },
+      {
+        id: 41,
+        name: "Burgundy T-shirt",
+        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
+        price: 25,
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "House",
+    routeName: "house",
+    items: [
+      {
+        id: 42,
+        name: "Book Bag",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-04_yovpn4.jpg",
+        price: 25,
+      },
+      {
+        id: 43,
+        name: "Sofa pillow",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341162/h-charis-online-store/house/ho-08_dumhjz.jpg",
+        price: 20,
+      },
+      {
+        id: 44,
+        name: "White Vase ",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341162/h-charis-online-store/house/ho-01_askpaq.jpg",
+        price: 80,
+      },
+      {
+        id: 45,
+        name: "Dark Vase",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-03_afgyw3.jpg",
+        price: 80,
+      },
+      {
+        id: 46,
+        name: "Wall Paper",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-07_wqqfac.jpg",
+        price: 45,
+      },
+      {
+        id: 47,
+        name: "Bath Decor",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-02_btdcpw.jpg",
+        price: 135,
+      },
+      {
+        id: 48,
+        name: "Cutting Board",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-06_inzvmx.jpg",
+        price: 50,
+      },
+      {
+        id: 49,
+        name: "Clock Duo",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-05_gzrdrq.jpg",
+        price: 40,
       },
     ],
   },
