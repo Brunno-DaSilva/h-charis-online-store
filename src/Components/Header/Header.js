@@ -7,6 +7,7 @@ import SearchArea from "../SearchArea/SearchArea";
 import { connect } from "react-redux";
 import CartDropDown from "../CartDropDown/CartDropDown";
 import CartIcon from "../CartIcon/CartIcon";
+import { selectCartHidden } from "../../Redux/Cart/cart-selectors";
 
 import "./header.scss";
 
@@ -35,8 +36,8 @@ const Header = ({ hidden }) => {
   );
 };
 
-const mapStateProps = ({ cart: { hidden } }) => ({
-  hidden,
+const mapStateProps = (state) => ({
+  hidden: selectCartHidden(state),
 });
 
 export default connect(mapStateProps)(Header);

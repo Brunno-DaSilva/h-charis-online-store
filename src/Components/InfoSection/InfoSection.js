@@ -12,6 +12,7 @@ import {
 
 import "./info-section.scss";
 import { auth } from "../../firebase/firebase";
+import { selectCurrentUser } from "../../Redux/User/user-selectors";
 
 const InfoSection = ({ currentUser }) => {
   return (
@@ -50,8 +51,8 @@ const InfoSection = ({ currentUser }) => {
   );
 };
 
-const mapStateToProps = ({ user: { currentUser } }) => ({
-  currentUser,
+const mapStateToProps = (state) => ({
+  currentUser: selectCurrentUser(state),
 });
 
 export default connect(mapStateToProps)(InfoSection);
