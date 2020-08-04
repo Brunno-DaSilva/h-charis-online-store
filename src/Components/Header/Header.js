@@ -5,6 +5,7 @@ import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-01.s
 import SearchArea from "../SearchArea/SearchArea";
 
 import { connect } from "react-redux";
+import { createStructuredSelector } from "reselect";
 import CartDropDown from "../CartDropDown/CartDropDown";
 import CartIcon from "../CartIcon/CartIcon";
 import { selectCartHidden } from "../../Redux/Cart/cart-selectors";
@@ -13,7 +14,7 @@ import "./header.scss";
 
 const Header = ({ hidden }) => {
   return (
-    <>
+    <div>
       <InfoSection />
       <div className="header">
         <Link className="logo-container" to="/">
@@ -32,12 +33,12 @@ const Header = ({ hidden }) => {
         </div>
         {hidden ? "" : <CartDropDown />}
       </div>
-    </>
+    </div>
   );
 };
 
-const mapStateProps = (state) => ({
-  hidden: selectCartHidden(state),
+const mapStateProps = createStructuredSelector({
+  hidden: selectCartHidden,
 });
 
 export default connect(mapStateProps)(Header);
