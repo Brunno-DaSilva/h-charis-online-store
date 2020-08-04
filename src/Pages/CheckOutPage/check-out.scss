@@ -21,7 +21,6 @@
       border-bottom: 1px solid #e5e5e5;
 
       .header-block {
-        text-transform: capitalize;
         width: 21%;
         padding: 1em;
 
@@ -39,10 +38,11 @@
   }
 
   .checkout-total {
-    width: 30%;
+    width: 75%;
     background: #f1f0f0;
-    margin-right: 7.1rem;
-    margin-top: 3rem;
+    margin: 50px auto 0;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 
     .total {
       display: flex;
@@ -52,6 +52,7 @@
       font-weight: 800;
       text-transform: uppercase;
       padding: 1rem;
+
       color: #343641;
       span {
         color: #ffa851;
