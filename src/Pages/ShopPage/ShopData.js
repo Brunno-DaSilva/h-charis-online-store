@@ -1,62 +1,246 @@
 const SHOP_DATA = [
   {
-    id: 1,
-    title: "Hats",
-    routeName: "hats",
+    id: 3,
+    title: "Jackets",
+    routeName: "jackets",
     items: [
       {
-        id: 1,
-        name: "Brown Brim",
-        imageUrl: "https://i.ibb.co/ZYW3VTp/brown-brim.png",
+        id: 18,
+        name: "Black Jean Shearling",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/J-02_qc092m.jpg",
+        price: 125,
+      },
+      {
+        id: 19,
+        name: "Blue Jean Jacket",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/JW-03_am6boe.jpg",
+        price: 90,
+      },
+      {
+        id: 20,
+        name: "Grey Jean Jacket",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/JW-04_j1zrop.jpg",
+        price: 90,
+      },
+      {
+        id: 21,
+        name: "Brown Shearling",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/J-01_iyjwji.jpg",
+        price: 165,
+      },
+      {
+        id: 22,
+        name: "Tan Trench",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/JW-01_nnc9dp.jpg",
+        price: 185,
+      },
+      {
+        id: 221,
+        name: "Black Trench",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/J-04_ybqtq3.jpg",
+        price: 185,
+      },
+      {
+        id: 222,
+        name: "Black Trench",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/JW-02_kmw9sl.jpg",
+        price: 185,
+      },
+      {
+        id: 223,
+        name: "Black Trench",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749377/h-charis-online-store/Jacket/J-03_mq5gty.jpg",
+        price: 185,
+      },
+    ],
+  },
+  {
+    id: 4,
+    title: "Womens",
+    routeName: "womens",
+    items: [
+      {
+        id: 23,
+        name: "Tanktop Dress",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-03_flirwh.jpg",
         price: 25,
       },
       {
-        id: 2,
-        name: "Blue Beanie",
-        imageUrl: "https://i.ibb.co/ypkgK0X/blue-beanie.png",
-        price: 18,
+        id: 24,
+        name: "Floral Blouse",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-02_lqugwf.jpg",
+        price: 20,
       },
       {
-        id: 3,
-        name: "Brown Cowboy",
-        imageUrl: "https://i.ibb.co/QdJwgmp/brown-cowboy.png",
-        price: 35,
+        id: 25,
+        name: "Floral Dress",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-01_zk0dbm.jpg",
+        price: 80,
       },
       {
-        id: 4,
-        name: "Grey Brim",
-        imageUrl: "https://i.ibb.co/RjBLWxB/grey-brim.png",
+        id: 26,
+        name: "Shirt Dress",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-05_vwcusi.jpg",
+        price: 80,
+      },
+      {
+        id: 27,
+        name: "Black Dress",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-04_iqksdo.jpg",
+        price: 45,
+      },
+      {
+        id: 28,
+        name: "White Track Suit",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-08_aughjb.jpg",
+        price: 135,
+      },
+      {
+        id: 29,
+        name: "Brown Blouse",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-07_ujuymn.jpg",
+        price: 20,
+      },
+      {
+        id: 291,
+        name: "Black Blouse",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753329/h-charis-online-store/Women/W-06_ou4axf.jpg",
+        price: 20,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Mens",
+    routeName: "mens",
+    items: [
+      {
+        id: 30,
+        name: "Blue Polo",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-01_bxlmy9.jpg",
+        price: 325,
+      },
+      {
+        id: 31,
+        name: "Suit Marin",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-05_ksqavn.jpg",
+        price: 20,
+      },
+      {
+        id: 32,
+        name: "Pants Marine",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-08_tf0f15.jpg",
         price: 25,
       },
       {
-        id: 5,
-        name: "Green Beanie",
-        imageUrl: "https://i.ibb.co/YTjW3vF/green-beanie.png",
-        price: 18,
+        id: 33,
+        name: "Pants Green",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-07_ux08ap.jpg",
+        price: 25,
       },
       {
-        id: 6,
-        name: "Palm Tree Cap",
-        imageUrl: "https://i.ibb.co/rKBDvJX/palm-tree-cap.png",
-        price: 14,
+        id: 34,
+        name: "White Polo",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-04_hixszl.jpg",
+        price: 40,
       },
       {
-        id: 7,
-        name: "Red Beanie",
-        imageUrl: "https://i.ibb.co/bLB646Z/red-beanie.png",
-        price: 18,
+        id: 35,
+        name: "Red Polo",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-02_ixzeky.jpg",
+        price: 25,
       },
       {
-        id: 8,
-        name: "Wolf Cap",
-        imageUrl: "https://i.ibb.co/1f2nWMM/wolf-cap.png",
-        price: 14,
+        id: 351,
+        name: "Light-Blue Polo",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-03_eoygxg.jpg",
+        price: 25,
+      },
+    ],
+  },
+  {
+    id: 6,
+    title: "Kids",
+    routeName: "kids",
+    items: [
+      {
+        id: 36,
+        name: "Jean Long Sleeve",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596752903/h-charis-online-store/Kids/k-01_llkodt.jpg",
+        price: 325,
       },
       {
-        id: 9,
-        name: "Blue Snapback",
-        imageUrl: "https://i.ibb.co/X2VJP2W/blue-snapback.png",
-        price: 16,
+        id: 37,
+        name: "Hoods T-shirt",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596752902/h-charis-online-store/Kids/k-02_bvhgfc.jpg",
+        price: 20,
+      },
+      {
+        id: 38,
+        name: "T-shirt and Paints",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596751954/h-charis-online-store/Kids/k-07_fsvhmc.jpg",
+        price: 25,
+      },
+      {
+        id: 39,
+        name: "Pink T-shirt",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596751954/h-charis-online-store/Kids/K-08_gtkxtb.jpg",
+        price: 25,
+      },
+      {
+        id: 40,
+        name: "Vest",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596751954/h-charis-online-store/Kids/K-04_cizn9y.jpg",
+        price: 40,
+      },
+      {
+        id: 41,
+        name: "Active T-shirt",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596752892/h-charis-online-store/Kids/K-05_xdmtxm.jpg",
+        price: 25,
+      },
+      {
+        id: 411,
+        name: "Nike T-shirt",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596752900/h-charis-online-store/Kids/k-03_grgzrb.jpg",
+        price: 45,
+      },
+      {
+        id: 412,
+        name: "Under Armor",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596752895/h-charis-online-store/Kids/K-06_bl0hnp.jpg",
+        price: 55,
       },
     ],
   },
@@ -124,174 +308,72 @@ const SHOP_DATA = [
     ],
   },
   {
-    id: 3,
-    title: "Jackets",
-    routeName: "jackets",
+    id: 1,
+    title: "Hats",
+    routeName: "hats",
     items: [
       {
-        id: 18,
-        name: "Black Jean Shearling",
-        imageUrl: "https://i.ibb.co/XzcwL5s/black-shearling.png",
-        price: 125,
-      },
-      {
-        id: 19,
-        name: "Blue Jean Jacket",
-        imageUrl: "https://i.ibb.co/mJS6vz0/blue-jean-jacket.png",
-        price: 90,
-      },
-      {
-        id: 20,
-        name: "Grey Jean Jacket",
-        imageUrl: "https://i.ibb.co/N71k1ML/grey-jean-jacket.png",
-        price: 90,
-      },
-      {
-        id: 21,
-        name: "Brown Shearling",
-        imageUrl: "https://i.ibb.co/s96FpdP/brown-shearling.png",
-        price: 165,
-      },
-      {
-        id: 22,
-        name: "Tan Trench",
-        imageUrl: "https://i.ibb.co/M6hHc3F/brown-trench.png",
-        price: 185,
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "Womens",
-    routeName: "womens",
-    items: [
-      {
-        id: 23,
-        name: "Blue Tanktop",
-        imageUrl: "https://i.ibb.co/7CQVJNm/blue-tank.png",
+        id: 1,
+        name: "Brown Brim",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-08_djzcea.jpg",
         price: 25,
       },
       {
-        id: 24,
-        name: "Floral Blouse",
-        imageUrl: "https://i.ibb.co/4W2DGKm/floral-blouse.png",
-        price: 20,
+        id: 2,
+        name: "Blue Beanie",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-01_burzyp.jpg",
+        price: 18,
       },
       {
-        id: 25,
-        name: "Floral Dress",
-        imageUrl: "https://i.ibb.co/KV18Ysr/floral-skirt.png",
-        price: 80,
+        id: 3,
+        name: "Brown Cowboy",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-03_xqv6gy.jpg",
+        price: 35,
       },
       {
-        id: 26,
-        name: "Red Dots Dress",
-        imageUrl: "https://i.ibb.co/N3BN1bh/red-polka-dot-dress.png",
-        price: 80,
-      },
-      {
-        id: 27,
-        name: "Striped Sweater",
-        imageUrl: "https://i.ibb.co/KmSkMbH/striped-sweater.png",
-        price: 45,
-      },
-      {
-        id: 28,
-        name: "Yellow Track Suit",
-        imageUrl: "https://i.ibb.co/v1cvwNf/yellow-track-suit.png",
-        price: 135,
-      },
-      {
-        id: 29,
-        name: "White Blouse",
-        imageUrl: "https://i.ibb.co/qBcrsJg/white-vest.png",
-        price: 20,
-      },
-    ],
-  },
-  {
-    id: 5,
-    title: "Mens",
-    routeName: "mens",
-    items: [
-      {
-        id: 30,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        price: 325,
-      },
-      {
-        id: 31,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        price: 20,
-      },
-      {
-        id: 32,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
+        id: 4,
+        name: "Grey Brim",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-02_zxmd5i.jpg",
         price: 25,
       },
       {
-        id: 33,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        price: 25,
+        id: 5,
+        name: "White Beanie",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-06_b0q9lp.jpg",
+        price: 18,
       },
       {
-        id: 34,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40,
+        id: 6,
+        name: "Palm Tree Cap",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-05_uvqq90.jpg",
+        price: 14,
       },
       {
-        id: 35,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25,
-      },
-    ],
-  },
-  {
-    id: 6,
-    title: "Kids",
-    routeName: "kids",
-    items: [
-      {
-        id: 36,
-        name: "Camo Down Vest",
-        imageUrl: "https://i.ibb.co/xJS0T3Y/camo-vest.png",
-        price: 325,
+        id: 7,
+        name: "Red Beanie",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-04_preo6m.jpg",
+        price: 18,
       },
       {
-        id: 37,
-        name: "Floral T-shirt",
-        imageUrl: "https://i.ibb.co/qMQ75QZ/floral-shirt.png",
-        price: 20,
+        id: 8,
+        name: "Wolf Cap",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749429/h-charis-online-store/hat/h-07_gfh2nc.jpg",
+        price: 14,
       },
       {
-        id: 38,
-        name: "Black & White Longsleeve",
-        imageUrl: "https://i.ibb.co/55z32tw/long-sleeve.png",
-        price: 25,
-      },
-      {
-        id: 39,
-        name: "Pink T-shirt",
-        imageUrl: "https://i.ibb.co/RvwnBL8/pink-shirt.png",
-        price: 25,
-      },
-      {
-        id: 40,
-        name: "Jean Long Sleeve",
-        imageUrl: "https://i.ibb.co/VpW4x5t/roll-up-jean-shirt.png",
-        price: 40,
-      },
-      {
-        id: 41,
-        name: "Burgundy T-shirt",
-        imageUrl: "https://i.ibb.co/mh3VM1f/polka-dot-shirt.png",
-        price: 25,
+        id: 9,
+        name: "Black Snapback",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749807/h-charis-online-store/hat/h-09_tijtrz.jpg",
+        price: 16,
       },
     ],
   },
