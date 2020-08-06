@@ -8,13 +8,11 @@ import ShopPage from "./Pages/ShopPage/ShopPage";
 import CheckOutPage from "./Pages/CheckOutPage/CheckOutPage";
 
 import Header from "./Components/Header/Header";
+
 import SignInAndSignUpPage from "./Pages/SignInAndSignUpPage/SignInAndSignUpPage";
 import { auth, createUserProfileDocument } from "./firebase/firebase";
 import { setCurrentUser } from "./Redux/User/user-action";
 import { selectCurrentUser } from "./Redux/User/user-selectors";
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faTrash } from "@fortawesome/free-solid-svg-icons";
 
 import "./App.css";
 
@@ -47,6 +45,7 @@ class App extends Component {
     return (
       <div>
         <Header />
+
         <Switch>
           <Route exact path="/" component={HomePage} />
           <Route path="/shop" component={ShopPage} />

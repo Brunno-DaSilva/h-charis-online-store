@@ -2,10 +2,10 @@
   width: 100%;
   display: flex;
   min-height: 100px;
-  border-bottom: 1px solid darkgrey;
   padding: 15px 0;
   font-size: 20px;
   align-items: center;
+  border-bottom: 1px solid #e5e5e5;
 
   .image-container {
     width: 21%;
@@ -20,14 +20,28 @@
   .quantity,
   .price {
     width: 21%;
+    color: #a0a0a0;
+    font-size: 1rem;
   }
 
   .price {
-    color: #ffa851;
+    color: #f08923;
     font-size: 1rem;
   }
   .quantity {
     padding-left: 20px;
+    font-size: 1.2rem;
+
+    .less {
+      margin-right: 0.5rem;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .plus {
+      font-size: 0.9rem;
+      margin-left: 0.5rem;
+      cursor: pointer;
+    }
   }
 
   .remove-button {

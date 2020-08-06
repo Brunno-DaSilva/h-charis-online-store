@@ -2,6 +2,9 @@ import React from "react";
 import { connect } from "react-redux";
 import { clearItemFromCart } from "../../Redux/Cart/cart-action";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus, faMinus } from "@fortawesome/free-solid-svg-icons";
+
 import "./checkout-Item.scss";
 
 const CheckOutItem = ({ cartItem, clearItem }) => {
@@ -15,7 +18,10 @@ const CheckOutItem = ({ cartItem, clearItem }) => {
 
       <span className="name">{name}</span>
       <span className="price">$ {price}</span>
-      <span className="quantity">{quantity}</span>
+      <span className="quantity">
+        <FontAwesomeIcon className="less" icon={faMinus} /> {quantity}{" "}
+        <FontAwesomeIcon className="plus" icon={faPlus} />
+      </span>
       <div className="remove-button" onClick={() => clearItem(cartItem)}>
         &#10005;
       </div>
