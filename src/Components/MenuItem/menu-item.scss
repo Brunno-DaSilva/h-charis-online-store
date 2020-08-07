@@ -21,10 +21,6 @@ $main-active-bg: #ffdcba;
       transform: scale(1.1);
       transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
     }
-
-    & .content {
-      opacity: 0.9;
-    }
   }
 
   &.large {
@@ -54,9 +50,8 @@ $main-active-bg: #ffdcba;
     align-items: center;
     justify-content: center;
     background-color: #ffdcbada;
-    // #292828a9;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
     position: absolute;
-
     .title {
       margin-bottom: 6px;
       font-size: 1.7rem;
