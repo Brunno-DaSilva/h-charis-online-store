@@ -378,6 +378,69 @@ const SHOP_DATA = [
     ],
   },
   {
+    id: 10,
+    title: "Jeans",
+    routeName: "jeans",
+    items: [
+      {
+        id: 85,
+        name: "Jeans knee",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-03_pgwexl.jpg",
+        price: 45,
+      },
+      {
+        id: 86,
+        name: "Dark Jeans",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-02_mp3ns5.jpg",
+        price: 35,
+      },
+      {
+        id: 87,
+        name: "Jeans Shorts",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-04_wzioko.jpg",
+        price: 80,
+      },
+      {
+        id: 88,
+        name: "Men's Jeans",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-08_dmgvby.jpg",
+        price: 80,
+      },
+      {
+        id: 89,
+        name: "Blue Navy Jeans",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-01_hove8v.jpg",
+        price: 45,
+      },
+      {
+        id: 90,
+        name: "Light Jeans",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-02_btdcpw.jpg",
+        price: 55,
+      },
+      {
+        id: 91,
+        name: "Jeans Wrapped",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-07_lp12fp.jpg",
+        price: 50,
+      },
+      {
+        id: 92,
+        name: "Dark Men Jeans",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-06_qe2slf.jpg",
+        price: 40,
+      },
+    ],
+  },
+  {
     id: 7,
     title: "House",
     routeName: "house",

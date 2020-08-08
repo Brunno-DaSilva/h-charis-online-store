@@ -8,28 +8,28 @@ class Directory extends Component {
       {
         title: "Jeans",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595211674/h-charis-online-store/jason-leung-DmD8HVOjy4c-unsplash_vlhbxm.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905410/h-charis-online-store/menu/4_pjts8f.png",
         id: 1,
         linkUrl: "shop/hats",
       },
       {
         title: "JACKETS",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595212188/h-charis-online-store/marcos-rivas-OZokCdO5goI-unsplash_gwivix.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905410/h-charis-online-store/menu/1_re9n0r.png",
         id: 2,
         linkUrl: "shop/jackets",
       },
       {
         title: "sneakers",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595211757/h-charis-online-store/jayson-hinrichsen-qLs4WYXqLNY-unsplash_nxhhk3.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905410/h-charis-online-store/menu/2_viwtqw.png",
         id: 3,
         linkUrl: "shop/sneakers",
       },
       {
         title: "womens",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595211465/h-charis-online-store/liz_uoljkf.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905414/h-charis-online-store/menu/Blue_Green_Bordered_Kindness_Quote_Graphic_qctkgp.png",
         size: "large",
         id: 4,
         linkUrl: "shop/womens",
@@ -37,7 +37,7 @@ class Directory extends Component {
       {
         title: "mens",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595378590/h-charis-online-store/male_smile_jy8baq.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905410/h-charis-online-store/menu/3_sy3n7p.png",
         size: "large",
         id: 5,
         linkUrl: "shop/mens",
@@ -45,7 +45,7 @@ class Directory extends Component {
       {
         title: "kids",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595194741/h-charis-online-store/ian-pic_bp4x1p.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905410/h-charis-online-store/menu/5_bmmapi.png",
         size: "large",
         id: 6,
         linkUrl: "shop/kids",
@@ -53,7 +53,7 @@ class Directory extends Component {
       {
         title: "house",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1595194539/h-charis-online-store/family6_oqxczh.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905931/h-charis-online-store/menu/Untitled_design_ciukoe.png",
         size: "large",
         id: 7,
         linkUrl: "shop/house",
