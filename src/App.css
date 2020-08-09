@@ -12,3 +12,9 @@ a {
   text-decoration: none;
   color: var(--dark-nav-bg);
 }
+
+.main-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

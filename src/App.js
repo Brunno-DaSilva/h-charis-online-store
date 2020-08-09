@@ -8,6 +8,7 @@ import ShopPage from "./Pages/ShopPage/ShopPage";
 import CheckOutPage from "./Pages/CheckOutPage/CheckOutPage";
 
 import Header from "./Components/Header/Header";
+import Footer from "./Components/Footer/Footer";
 
 import SignInAndSignUpPage from "./Pages/SignInAndSignUpPage/SignInAndSignUpPage";
 import { auth, createUserProfileDocument } from "./firebase/firebase";
@@ -43,7 +44,7 @@ class App extends Component {
 
   render() {
     return (
-      <div>
+      <div className="main-app-container">
         <Header />
 
         <Switch>
@@ -62,6 +63,7 @@ class App extends Component {
             }
           />
         </Switch>
+        <Footer />
       </div>
     );
   }
