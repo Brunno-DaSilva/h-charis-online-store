@@ -36,20 +36,22 @@ const DealOfTheWeek = () => {
                   <Timer.Days /> <span>days</span>
                 </div>
                 <div className="col-1__time--hours">
-                  <Timer.Hours /> <span>hours</span>
+                  <Timer.Hours /> <span>hrs</span>
                 </div>
                 <div className="col-1__time--mins">
-                  <Timer.Minutes /> <span>minutes</span>
+                  <Timer.Minutes /> <span>min</span>
                 </div>
-                <div className="col-1__time--mins">
+                <div className="col-1__time--secs">
                   <Timer.Seconds className="col-1__time--secs" />
-                  <span>seconds</span>
+                  <span>secs</span>
                 </div>
               </React.Fragment>
             )}
           </Timer>
         </div>
-        <CustomButton>Shop Now</CustomButton>
+        <div className="deal__btn-wrapper">
+          <CustomButton>Shop Now</CustomButton>
+        </div>
       </div>
       <div className="deal__col-2">
         <img

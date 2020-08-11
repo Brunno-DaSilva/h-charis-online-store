@@ -37,10 +37,13 @@
       margin: 0 0 15px 0;
     }
     .col-1--price {
+      width: 80%;
+      display: flex;
+      justify-content: space-evenly;
       p {
         color: #f08923;
         font-size: 1.5rem;
-        font-weight: 400;
+        font-weight: 600;
 
         span {
           font-size: 0.7rem;
@@ -48,6 +51,45 @@
           font-weight: 400;
         }
       }
+    }
+    .col-1--time {
+      width: 80%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: center;
+      margin-bottom: 1rem;
+
+      .col-1__time--days,
+      .col-1__time--hours,
+      .col-1__time--mins,
+      .col-1__time--secs {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        background-color: #ffffff;
+        padding: 1.1rem;
+        font-weight: 900;
+        color: #f08923;
+        border-radius: 0.3rem;
+
+        span {
+          color: #9b9b9b;
+          text-transform: uppercase;
+          font-weight: normal;
+          font-size: 1.1rem;
+        }
+      }
+    }
+
+    .deal__btn-wrapper {
+      margin-top: 2rem;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
     }
   }
   .deal__col-2 {
