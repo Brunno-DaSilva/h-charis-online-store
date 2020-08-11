@@ -6,7 +6,7 @@ $main-active-bg: #ffdcba;
 .footer {
   max-width: 100%;
   background-color: #252525;
-  color: #ffffff;
+  color: $sub-color;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -14,9 +14,20 @@ $main-active-bg: #ffdcba;
   box-sizing: border-box;
   overflow: hidden;
 
+  .info-links {
+    display: flex;
+    flex-direction: column;
+
+    .info-link {
+      text-decoration: none;
+      color: #c0c0c0 !important;
+    }
+  }
+
   .info-title {
     font-size: 1.2rem;
     letter-spacing: 1px;
+    color: #e5e5e5;
   }
 
   .footer-brands {
@@ -25,10 +36,16 @@ $main-active-bg: #ffdcba;
     align-items: center;
     width: 100%;
     height: 10vh;
-    color: #ffffff;
-    background-color: #474545da;
+    color: #6e6e6e;
+    background-color: #3f3d3dda;
     font-size: 1.2rem;
     text-transform: uppercase;
+
+    .brands-logos {
+      img {
+        width: 5rem;
+      }
+    }
   }
   .footer-info {
     display: flex;
@@ -41,17 +58,59 @@ $main-active-bg: #ffdcba;
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
+      margin-top: 3rem;
+
+      .column-one,
+      .column-four {
+        width: 28%;
+        padding: 1rem;
+        line-height: 2rem;
+      }
+      .column-two,
+      .column-three {
+        width: 15%;
+        padding: 1rem;
+        line-height: 2.4rem;
+      }
 
       .column-one {
         .logo-container {
-          height: auto;
-          width: 2rem;
+          .logo {
+            width: 60%;
+          }
+        }
+        .contact-info {
+          p {
+            color: $main-active-bg;
+            span {
+              color: $sub-color;
+            }
+          }
+        }
+        .left__social-media {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          align-items: center;
+          width: 70%;
+
+          .info-icons {
+            width: 22%;
+            font-size: 1.5rem;
+            color: $main-active-bg;
+            cursor: pointer;
+          }
         }
       }
+      .column-two {
+        display: flex;
+        flex-direction: column;
+      }
+
       .column-four {
         .footer__search-container {
           display: flex;
-          width: 50%;
+          width: 100%;
 
           form {
             display: flex;
@@ -59,13 +118,15 @@ $main-active-bg: #ffdcba;
             align-items: center;
             width: 100%;
 
-            .search-box {
+            .newsletter {
               width: 100%;
               height: 2rem;
               border: 1px solid $border-color;
+              background-color: #474545da;
               border-right: none;
               outline: none;
-              font-size: 1.2rem;
+              font-size: 1rem;
+              padding: 0.3rem;
               letter-spacing: 1px;
               color: $main-color;
               &:focus {
@@ -74,20 +135,67 @@ $main-active-bg: #ffdcba;
             }
 
             #search-btn {
-              width: 30%;
-              height: 2.3rem;
+              width: 50%;
+
               border: none;
               background: $main-active-bg;
               text-align: center;
               color: $main-color;
               cursor: pointer;
-              font-size: 1.2rem;
+              font-size: 1rem;
+              padding: 0.8rem;
             }
           }
         }
       }
     }
+
     .bottom-section {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 2rem;
+      letter-spacing: 1px;
+
+      img {
+        width: 100px;
+        height: auto;
+      }
+      .bruno {
+        color: $border-color;
+        font-size: 1.2rem;
+        span {
+          color: $main-active-bg;
+          font-size: 1rem;
+        }
+      }
+      .more-projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        span {
+          color: $main-active-bg;
+        }
+        a {
+          color: $main-active-bg;
+          font-size: 2rem;
+          margin: 1rem;
+
+          i {
+            transition: ease-in-out 0.5s;
+            &:hover {
+              color: $sub-color;
+            }
+          }
+        }
+      }
+
+      .copyright {
+        letter-spacing: 1px;
+      }
     }
   }
 }
