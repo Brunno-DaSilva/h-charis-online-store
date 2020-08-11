@@ -1,4 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
+
+import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-01.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -22,9 +25,9 @@ const Footer = () => {
       <div className="footer-info">
         <div className="info-columns">
           <div className="column-one">
-            <div class="footer-logo">
-              <img src="#" alt="Logo Helena Charis" />
-            </div>
+            <Link className="logo-container" to="/">
+              <Logo className="logo" />
+            </Link>
             <div className="contact-info">
               <p>
                 Address: <span>1212 B Avenue Dallas, Texas 750058</span>

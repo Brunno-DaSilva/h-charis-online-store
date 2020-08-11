@@ -4,12 +4,15 @@ $border-color: #e5e5e5;
 $main-active-bg: #ffdcba;
 
 .footer {
-  max-width: 98%;
+  max-width: 100%;
   background-color: #252525;
   color: #ffffff;
-  padding: 1rem;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  box-sizing: border-box;
+  overflow: hidden;
 
   .info-title {
     font-size: 1.2rem;
@@ -18,15 +21,33 @@ $main-active-bg: #ffdcba;
 
   .footer-brands {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     width: 100%;
+    height: 10vh;
     color: #ffffff;
+    background-color: #474545da;
+    font-size: 1.2rem;
+    text-transform: uppercase;
   }
   .footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 100%;
 
     .info-columns {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      .column-one {
+        .logo-container {
+          height: auto;
+          width: 2rem;
+        }
+      }
       .column-four {
         .footer__search-container {
           display: flex;
@@ -37,7 +58,6 @@ $main-active-bg: #ffdcba;
             justify-content: center;
             align-items: center;
             width: 100%;
-            padding: 0.7rem;
 
             .search-box {
               width: 100%;

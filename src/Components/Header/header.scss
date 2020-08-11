@@ -1,25 +1,28 @@
-.header {
-  height: 7rem;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border: 1px solid #e5e5e5;
-  .logo-container {
-    height: auto;
-    width: 11.875rem;
-  }
-
-  .options {
-    width: 35%;
-    height: 100%;
+.header-container {
+  overflow: hidden;
+  .header {
+    height: 7rem;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: flex-end;
-    margin: 0 0.5rem;
+    border: 1px solid #e5e5e5;
+    .logo-container {
+      height: auto;
+      width: 11.875rem;
+    }
 
-    .option {
-      padding: 10px 15px;
+    .options {
+      width: 35%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      margin: 0 0.5rem;
+
+      .option {
+        padding: 10px 15px;
+      }
     }
   }
 }

@@ -14,7 +14,7 @@ import "./header.scss";
 
 const Header = ({ hidden }) => {
   return (
-    <div>
+    <div className="header-container">
       <InfoSection />
       <div className="header">
         <Link className="logo-container" to="/">
