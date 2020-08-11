@@ -40,6 +40,7 @@ $main-active-bg: #ffdcba;
     background-color: #3f3d3dda;
     font-size: 1.2rem;
     text-transform: uppercase;
+    padding: 0.5rem;
 
     .brands-logos {
       img {
@@ -194,7 +195,12 @@ $main-active-bg: #ffdcba;
       }
 
       .copyright {
+        padding: 1rem;
+        font-size: 0.9rem;
         letter-spacing: 1px;
+        .tomato {
+          color: tomato;
+        }
       }
     }
   }

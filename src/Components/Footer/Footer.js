@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-02.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGlobeAmericas } from "@fortawesome/free-solid-svg-icons";
+import {
+  faGlobeAmericas,
+  faHeartbeat,
+  faHeart,
+} from "@fortawesome/free-solid-svg-icons";
 
 import {
   faFacebook,
@@ -171,8 +175,9 @@ const Footer = () => {
 
           <div className="copyright">
             <p>
-              Copyright <span>©{getYear()}</span> All rights reserved - Bruno
-              DaSilva Software Development
+              Copyright <span>©{getYear()}</span> All rights reserved | made
+              with <FontAwesomeIcon className="tomato" icon={faHeart} /> by
+              Bruno DaSilva Software Development
             </p>
           </div>
         </div>
