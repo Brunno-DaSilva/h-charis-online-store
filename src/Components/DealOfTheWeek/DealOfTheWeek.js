@@ -1,6 +1,8 @@
 import React from "react";
 import Timer from "react-compound-timer";
 
+import { Link } from "react-router-dom";
+
 import CustomButton from "../CustomButton/CustomButton";
 
 import "./deal-of-the-week.scss";
@@ -50,7 +52,9 @@ const DealOfTheWeek = () => {
           </Timer>
         </div>
         <div className="deal__btn-wrapper">
-          <CustomButton>Shop Now</CustomButton>
+          <Link className="option" to="/shop">
+            <CustomButton>Shop Now</CustomButton>
+          </Link>
         </div>
       </div>
       <div className="deal__col-2">
