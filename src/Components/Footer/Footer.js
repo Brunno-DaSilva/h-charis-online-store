@@ -4,11 +4,7 @@ import { Link } from "react-router-dom";
 import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-02.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGlobeAmericas,
-  faHeartbeat,
-  faHeart,
-} from "@fortawesome/free-solid-svg-icons";
+import { faGlobeAmericas, faHeart } from "@fortawesome/free-solid-svg-icons";
 
 import {
   faFacebook,
@@ -68,7 +64,9 @@ const Footer = () => {
                 className="info-icons social"
                 icon={faPinterest}
               />
+
               <FontAwesomeIcon className="info-icons social" icon={faTwitter} />
+
               <FontAwesomeIcon
                 className="info-icons social"
                 icon={faLinkedin}
