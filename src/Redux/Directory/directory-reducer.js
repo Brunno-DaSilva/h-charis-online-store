@@ -5,7 +5,7 @@ const INITIAL_STATE = {
       imageUrl:
         "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905410/h-charis-online-store/menu/4_pjts8f.png",
       id: 1,
-      linkUrl: "shop/hats",
+      linkUrl: "shop/jeans",
     },
     {
       title: "JACKETS",
@@ -22,7 +22,7 @@ const INITIAL_STATE = {
       linkUrl: "shop/sneakers",
     },
     {
-      title: "womens",
+      title: "women",
       imageUrl:
         "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905414/h-charis-online-store/menu/Blue_Green_Bordered_Kindness_Quote_Graphic_qctkgp.png",
       size: "large",
@@ -30,7 +30,7 @@ const INITIAL_STATE = {
       linkUrl: "shop/womens",
     },
     {
-      title: "mens",
+      title: "men",
       imageUrl:
         "https://res.cloudinary.com/duprwuo4j/image/upload/v1596905410/h-charis-online-store/menu/3_sy3n7p.png",
       size: "large",
