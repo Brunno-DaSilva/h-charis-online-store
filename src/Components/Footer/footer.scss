@@ -176,6 +176,7 @@ $main-active-bg: #ffdcba;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-bottom: 1rem;
 
         span {
           color: $main-active-bg;
@@ -195,9 +196,15 @@ $main-active-bg: #ffdcba;
       }
 
       .copyright {
-        padding: 1rem;
+        width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem 0;
+
         font-size: 0.9rem;
         letter-spacing: 1px;
+        border-top: 1px solid #6e6e6e;
         .tomato {
           color: tomato;
         }
