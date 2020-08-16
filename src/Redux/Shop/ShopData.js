@@ -268,28 +268,28 @@ const SHOP_DATA = {
         name: "Blue Polo",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-01_bxlmy9.jpg",
-        price: 325,
+        price: 35,
       },
       {
         id: 31,
         name: "Suit Marin",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-05_ksqavn.jpg",
-        price: 20,
+        price: 325,
       },
       {
         id: 32,
         name: "Pants Marine",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-08_tf0f15.jpg",
-        price: 25,
+        price: 75,
       },
       {
         id: 33,
         name: "Pants Green",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-07_ux08ap.jpg",
-        price: 25,
+        price: 65,
       },
       {
         id: 34,
@@ -311,6 +311,13 @@ const SHOP_DATA = {
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596753299/h-charis-online-store/Mens/M-03_eoygxg.jpg",
         price: 25,
+      },
+      {
+        id: 352,
+        name: "Khaki Pants",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1597544867/h-charis-online-store/Mens/ezgif.com-webp-to-jpg_16_fjosre.jpg",
+        price: 45,
       },
     ],
   },
@@ -405,7 +412,7 @@ const SHOP_DATA = {
       },
       {
         id: 88,
-        name: "Men's Jeans",
+        name: "Washed Jeans",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-08_dmgvby.jpg",
         price: 80,
@@ -419,21 +426,21 @@ const SHOP_DATA = {
       },
       {
         id: 90,
-        name: "Light Jeans",
+        name: "Blue Jeans",
         imageUrl:
-          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596341161/h-charis-online-store/house/ho-02_btdcpw.jpg",
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-05_fwlgdp.jpg",
         price: 55,
       },
       {
         id: 91,
-        name: "Jeans Wrapped",
+        name: "Wrapped Jeans",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-07_lp12fp.jpg",
         price: 50,
       },
       {
         id: 92,
-        name: "Dark Men Jeans",
+        name: "Skinny Jeans",
         imageUrl:
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596901809/h-charis-online-store/jeans/Jeans-06_qe2slf.jpg",
         price: 40,
