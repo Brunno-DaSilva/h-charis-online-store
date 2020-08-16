@@ -67,6 +67,27 @@ const SHOP_DATA = {
           "https://res.cloudinary.com/duprwuo4j/image/upload/v1596749807/h-charis-online-store/hat/h-09_tijtrz.jpg",
         price: 16,
       },
+      {
+        id: 96,
+        name: "Yellow Officer",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1597609726/h-charis-online-store/hat/h-10_k7cwf7.jpg",
+        price: 38,
+      },
+      {
+        id: 97,
+        name: "Western Cowgirl",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1597609726/h-charis-online-store/hat/h-12_nwwtao.jpg",
+        price: 56,
+      },
+      {
+        id: 98,
+        name: "Indiana J.",
+        imageUrl:
+          "https://res.cloudinary.com/duprwuo4j/image/upload/v1597609726/h-charis-online-store/hat/h-11_wy1wkb.jpg",
+        price: 26,
+      },
     ],
   },
   sneakers: {

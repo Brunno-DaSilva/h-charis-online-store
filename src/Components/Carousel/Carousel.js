@@ -1,16 +1,22 @@
 import React, { Component } from "react";
 
+import { Link } from "react-router-dom";
+
 import Slider from "react-slick";
 
 import "./carousel-style.scss";
+
+import "../../../node_modules/slick-carousel/slick/slick.css";
+import "../../../node_modules/slick-carousel/slick/slick-theme.css";
 
 class Carousel extends Component {
   render() {
     const settings = {
       dots: true,
       infinite: true,
-      arrows: false,
+      autoplay: true,
       speed: 500,
+      autoplaySpeed: 8000,
       slidesToShow: 1,
       slidesToScroll: 1,
     };
