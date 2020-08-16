@@ -28,6 +28,9 @@ const Header = ({ hidden }) => {
           <Link className="option" to="/contact">
             CONTACT
           </Link>
+          <Link className="option colored" to="/about">
+            ABOUT
+          </Link>
 
           <CartIcon />
         </div>
