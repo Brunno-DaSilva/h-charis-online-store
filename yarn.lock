@@ -9580,6 +9580,11 @@ react-springs@^1.1.0:
   resolved "https://registry.yarnpkg.com/react-springs/-/react-springs-1.1.0.tgz#e091cd75d8b70d4bf164ee4f81007448b5e2a751"
   integrity sha1-4JHNddi3DUvxZO5PgQB0SLXip1E=
 
+react-stripe-checkout@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/react-stripe-checkout/-/react-stripe-checkout-2.6.3.tgz#3173a870b04e5a3c321a06d24cd53c6030111c45"
+  integrity sha1-MXOocLBOWjwyGgbSTNU8YDARHEU=
+
 react@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react/-/react-16.13.1.tgz#2e818822f1a9743122c063d6410d85c1e3afe48e"
