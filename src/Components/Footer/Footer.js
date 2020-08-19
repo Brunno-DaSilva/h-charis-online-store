@@ -1,5 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+
+import { createStructuredSelector } from "reselect";
+import { selectCurrentUser } from "../../Redux/User/user-selectors";
 
 import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-02.svg";
 import { ReactComponent as Wave } from "../../assets/wave-gray.svg";
@@ -17,7 +21,7 @@ import {
 
 import "./footer.scss";
 
-const Footer = () => {
+const Footer = ({ currentUser }) => {
   const getYear = () => {
     return new Date().getFullYear();
   };
@@ -118,16 +122,29 @@ const Footer = () => {
 
             <div className="column-four">
               <p className="info-title">Join Our Newsletter Now</p>
-              <span>
-                Get E-mail updates about our latest shop and special offers
-              </span>
+
+              {currentUser ? (
+                <span>
+                  <span className="column-four_user">
+                    {currentUser.displayName}
+                  </span>{" "}
+                  get e-mail updates about our latest shop and special offers.
+                </span>
+              ) : (
+                <span>
+                  Get e-mail updates about our latest shop and special offers.
+                </span>
+              )}
+
               <div className="footer__search-container">
                 <form>
                   <input
                     className="newsletter"
                     type="text"
                     label="newsletter"
-                    placeholder="Enter Your Email"
+                    placeholder={
+                      currentUser ? currentUser.email : "Enter Your Email"
+                    }
                     name="newsletter"
                   />
                   <button id="search-btn" type="submit">
@@ -191,4 +208,8 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+const mapStateToProps = createStructuredSelector({
+  currentUser: selectCurrentUser,
+});
+
+export default connect(mapStateToProps)(Footer);

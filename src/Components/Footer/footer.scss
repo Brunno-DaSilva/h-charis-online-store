@@ -67,6 +67,9 @@ $main-active-bg: #ffdcba;
         padding: 1rem;
         line-height: 2rem;
       }
+      .column-four {
+        width: 30%;
+      }
       .column-two,
       .column-three {
         width: 15%;
@@ -136,17 +139,21 @@ $main-active-bg: #ffdcba;
             }
 
             #search-btn {
-              width: 50%;
+              min-width: 35%;
 
               border: none;
               background: $main-active-bg;
               text-align: center;
               color: $main-color;
               cursor: pointer;
-              font-size: 1rem;
-              padding: 0.8rem;
+              font-size: 0.8rem;
+              padding: 0.9rem;
             }
           }
+        }
+        .column-four_user {
+          color: #ffdcba;
+          font-weight: bold;
         }
       }
     }

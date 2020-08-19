@@ -1,7 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { connect } from "react-redux";
+
 import { createStructuredSelector } from "reselect";
+
+import { auth } from "../../firebase/firebase";
+import { selectCurrentUser } from "../../Redux/User/user-selectors";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope, faPhone, faUser } from "@fortawesome/free-solid-svg-icons";
 import {
@@ -12,8 +17,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import "./info-section.scss";
-import { auth } from "../../firebase/firebase";
-import { selectCurrentUser } from "../../Redux/User/user-selectors";
 
 const InfoSection = ({ currentUser }) => {
   return (
