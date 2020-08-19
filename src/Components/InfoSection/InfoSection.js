@@ -38,7 +38,10 @@ const InfoSection = ({ currentUser }) => {
         <div className="right__login">
           <FontAwesomeIcon className="info-icons" icon={faUser} />{" "}
           {currentUser ? (
-            <span className="option" onClick={() => auth.signOut()}>
+            <span className="login__option" onClick={() => auth.signOut()}>
+              <span className="option__username">
+                {currentUser.displayName}{" "}
+              </span>{" "}
               Log Out
             </span>
           ) : (

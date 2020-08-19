@@ -54,6 +54,16 @@ $main-active-bg: #ffdcba;
   .info-right {
     .right__login {
       width: 100%;
+
+      .login__option {
+        color: #f08923;
+        font-size: 1rem;
+
+        .option__username {
+          font-size: 1rem;
+          margin-right: 0.7rem;
+        }
+      }
     }
   }
 }

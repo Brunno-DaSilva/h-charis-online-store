@@ -1,6 +1,7 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import {
   faTruck,
   faCreditCard,
@@ -16,7 +17,7 @@ const Delivery = () => {
         <FontAwesomeIcon className="icons" icon={faTruck} />
         <div className="description">
           <p>
-            free shipping
+            Get free shipping
             <br />
             <span> For all order over 99$</span>
           </p>
