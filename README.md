@@ -53,7 +53,23 @@ Following the design phase, I have a pretty good idea of what my components stru
 
 Finally, it is code time!
 
+## Challenges:
 
+Bringing a new technology onboard is always a challenge, at this time was not particularly easy to grasp my head around Redux at first. However, I just practice over and over, following the basic concepts and reading a lot of redux docs. 
 
+Also, I learned a lot about middlewares like the logger and how awesome it is to see the previous and current state displaying in the console. Finally, separating my Redux environment with each section of my application in its own folder and files. 
+For example: 
+
+Redux 
+    |__Cart
+         |__ cart-action.js
+         |__cart-reducer.js
+         |__cart-type.js
+         |__cart-selectors.js
+         |__cart-util.js
+    |__root-reducer.js
+    |__store.js
+
+ Having a main roo-reducer and store in the same directory makes it easy for me to understand what each one of them does and how to manage my state. 
 
 Demo: https://hcharis-store.herokuapp.com/
