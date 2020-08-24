@@ -8,6 +8,8 @@
 
 
 
+Demo: https://hcharis-store.herokuapp.com/
+
 
 ## Concept:
 
@@ -39,6 +41,8 @@ Fully functional and interactive, this web application allows users to see a lis
     FontAwesome
 
     Cloudinary
+
+    Heroku
 
     Adobe Illustrator
 
@@ -73,4 +77,4 @@ For example:
 
  Having a main roo-reducer and store in the same directory makes it easy for me to understand what each one of them does and how to manage my state. 
 
-Demo: https://hcharis-store.herokuapp.com/
+### Demo: https://hcharis-store.herokuapp.com/
