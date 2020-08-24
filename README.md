@@ -1,5 +1,14 @@
 # Helena Charis Online Store
 
+
+
+
+![Image of Yaktocat](https://res.cloudinary.com/duprwuo4j/image/upload/v1598302313/h-charis-online-store/screenshot_20200824_155042_fcpuxf.png)
+
+
+
+
+
 ## Concept:
 
 Fully functional and interactive, this web application allows users to see a list of products, see details about each product, add them to the cart, increment the number of items and buy the products utilizing Stripe API.
@@ -60,15 +69,7 @@ Bringing a new technology onboard is always a challenge, at this time was not pa
 Also, I learned a lot about middlewares like the logger and how awesome it is to see the previous and current state displaying in the console. Finally, separating my Redux environment with each section of my application in its own folder and files. 
 For example: 
 
-Redux 
-    |__Cart
-         |__ cart-action.js
-         |__cart-reducer.js
-         |__cart-type.js
-         |__cart-selectors.js
-         |__cart-util.js
-    |__root-reducer.js
-    |__store.js
+
 
  Having a main roo-reducer and store in the same directory makes it easy for me to understand what each one of them does and how to manage my state. 
 
