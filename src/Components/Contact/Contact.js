@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import emailjs from "emailjs-com";
 
 import CustomButton from "../CustomButton/CustomButton";
+import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-02.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircle } from "@fortawesome/free-solid-svg-icons";
@@ -45,6 +46,12 @@ class Contact extends Component {
   render() {
     return (
       <section id="contactme">
+        <div className="landing-page">
+          <div className="parallax">
+            <Logo />
+          </div>
+        </div>
+
         <div className="contact-container">
           <h1 className="contact-title animated fadeInLeft">Get in touch</h1>
           <div className="container__block animated fadeInRight">
