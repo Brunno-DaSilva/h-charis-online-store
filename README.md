@@ -13,7 +13,7 @@ Demo: https://hcharis-store.herokuapp.com/
 
 ## Concept:
 
-Fully functional and interactive, this web application allows users to see a list of products, see details about each product, add them to the cart, increment the number of items and buy the products utilizing Stripe API.
+Fully functional and interactive, this web application allows users to see a list of products, see details about each product, add them to the cart, increment the number of items and buy the products utilizing Stripe API. The products are separated by category displayed in teh main menu. User can then choose specific products or click on the shop section to visualize the entire list of products. Furthermore, from a technical point of view, this projects aims to utilize a state management tool, Redux, to better serve the application components. For authentication, this projects uses Firebase.  
 
 
 ## Technologies Used:
@@ -30,7 +30,7 @@ Fully functional and interactive, this web application allows users to see a lis
 
     JS
 
-    CSS
+    SCSS
 
     Stripe
 
@@ -51,7 +51,7 @@ Fully functional and interactive, this web application allows users to see a lis
 
 ## Approach:
 
-I had a defined idea of what I was looking for. An Online Store that provides users with a variety of products for men, woman, children, and house decor. 
+The main idea was an Online department store retail app that provides users with a variety of products for men, woman, children, and house decor. 
 An immersive experience, where we allow the user to select specific product by category, view the product and add to the cart, preview the items in the cart and move to the checkout,where the can remove and increment the number of items before purchase. Finally, the user can use a fake credit card provided by stipe to complete the transaction.
 
 I am a super visual person, so I like to start my projects by designing the application wireframe on my draw handbook with a pencil, nothing too fancy but for a visual person like me it makes a whole lot of difference, I feel like I have a goal to meet, like when I am doing a mockup of some website, the design is layout for me I just need to follow the patterns. 
@@ -75,6 +75,6 @@ For example:
 
 
 
- Having a main roo-reducer and store in the same directory makes it easy for me to understand what each one of them does and how to manage my state. 
+ Having a main root-reducer and store in the same directory makes it easy for me to understand what each one of them does and how to manage my state. 
 
 ### Demo: https://hcharis-store.herokuapp.com/
