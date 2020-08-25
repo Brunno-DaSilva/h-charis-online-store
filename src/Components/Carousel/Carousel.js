@@ -15,17 +15,21 @@ class Carousel extends Component {
       dots: true,
       infinite: true,
       autoplay: true,
-      speed: 500,
-      autoplaySpeed: 8000,
+      speed: 1000,
+      autoplaySpeed: 5000,
       slidesToShow: 1,
       slidesToScroll: 1,
+      arrows: true,
+      className: "slides",
     };
 
     return (
       <div className="carousel-container">
         <Slider {...settings}>
           <div>
-            <img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1596833062/h-charis-online-store/3_lmcig0.png " />
+            <Link to="/shop">
+              <img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1596833062/h-charis-online-store/3_lmcig0.png " />
+            </Link>
           </div>
           <div>
             <img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1596833062/h-charis-online-store/2_bwq1uv.png" />

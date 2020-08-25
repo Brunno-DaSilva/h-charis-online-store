@@ -6,4 +6,19 @@
     width: 100%;
     margin: auto;
   }
+  .slides {
+    position: relative;
+    .slick-prev,
+    .slick-next {
+      position: absolute;
+      top: 50%;
+    }
+    .slick-prev {
+      left: 5% !important;
+      z-index: 1;
+    }
+    .slick-next {
+      right: 5%;
+    }
+  }
 }
