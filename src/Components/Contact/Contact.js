@@ -5,8 +5,19 @@ import CustomButton from "../CustomButton/CustomButton";
 import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-02.svg";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCircle } from "@fortawesome/free-solid-svg-icons";
 
+import {
+  faEnvelope,
+  faPhone,
+  faUser,
+  faCircle,
+} from "@fortawesome/free-solid-svg-icons";
+import {
+  faFacebook,
+  faPinterest,
+  faTwitter,
+  faLinkedin,
+} from "@fortawesome/free-brands-svg-icons";
 import "./contact.scss";
 
 class Contact extends Component {
@@ -54,6 +65,36 @@ class Contact extends Component {
 
         <div className="contact-container">
           <h1 className="contact-title animated fadeInLeft">Get in touch</h1>
+
+          <div className="contact__top-icons">
+            <div className="top-icons__left">
+              <div>
+                <FontAwesomeIcon className="info-icons" icon={faPhone} />{" "}
+                <span>+1 955.555.5555</span>
+              </div>
+              <div>
+                <FontAwesomeIcon className="info-icons" icon={faEnvelope} />{" "}
+                <span>support@h-charis.com</span>
+              </div>
+            </div>
+
+            <div className="top-icons__right">
+              <FontAwesomeIcon
+                className="info-icons social"
+                icon={faFacebook}
+              />
+              <FontAwesomeIcon
+                className="info-icons social"
+                icon={faPinterest}
+              />
+              <FontAwesomeIcon className="info-icons social" icon={faTwitter} />
+              <FontAwesomeIcon
+                className="info-icons social"
+                icon={faLinkedin}
+              />
+            </div>
+          </div>
+
           <div className="container__block animated fadeInRight">
             <div className="contact ">
               {this.state.messageSent ? (

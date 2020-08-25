@@ -37,6 +37,42 @@
     letter-spacing: 0.2rem;
   }
 
+  .contact__top-icons {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+    padding: 1rem;
+
+    .info-icons {
+      font-size: 1.5rem;
+    }
+
+    .social {
+      transition: ease-in-out 0.5s;
+      &:hover {
+        cursor: pointer;
+        color: #f08923;
+      }
+    }
+    .top-icons__left {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 55%;
+      span {
+        margin-left: 0.7rem;
+      }
+    }
+    .top-icons__right {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 40%;
+    }
+  }
+
   .container__block {
     width: 70%;
     text-align: center;
