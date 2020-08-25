@@ -1,0 +1,123 @@
+#contactme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  margin: 3rem 0;
+
+  .contact-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    width: 60%;
+    padding: 0.5rem;
+  }
+
+  .contact-title {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    margin: 1rem !important;
+    letter-spacing: 0.2rem;
+  }
+
+  .container__block {
+    width: 70%;
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 1rem 0;
+
+    #contactForm {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-content: flex-start;
+      align-items: flex-start;
+      width: 90%;
+
+      .btn-holder {
+        padding: 0.9rem;
+      }
+
+      .name-email {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+      }
+
+      .flex-item-1,
+      .flex-item-2,
+      .flex-item-3,
+      .flex-item-4 {
+        margin: 1rem;
+        padding: 0.9rem;
+        background: #f1f1f1;
+        border: none;
+      }
+      .flex-item-1,
+      .flex-item-2 {
+        width: 41%;
+      }
+
+      .flex-item-3 {
+        width: 100%;
+      }
+
+      .flex-item-4 {
+        width: 100%;
+        height: 6rem;
+      }
+    }
+    .required-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-start !important;
+      align-items: center;
+      margin: 1rem;
+      height: 300px;
+    }
+    .required {
+      height: 30% !important;
+    }
+  }
+
+  .alert {
+    text-align: center;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: var(--title-light-gray-color);
+    color: var(--main-light-gray-bg);
+    border-radius: 0 3rem 0 3rem;
+    /* display: none; */
+  }
+
+  .required {
+    color: #f71212d5;
+    font-size: 6px;
+    margin-left: 0.3rem;
+  }
+
+  #divID {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .side-drawer,
+  .backdrop,
+  .toggle-button,
+  .side-draw-button {
+    display: none;
+  }
+}
