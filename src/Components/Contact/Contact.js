@@ -3,14 +3,15 @@ import emailjs from "emailjs-com";
 
 import CustomButton from "../CustomButton/CustomButton";
 import { ReactComponent as Logo } from "../../assets/hcharis-01.svg/hcharis-02.svg";
+import Map from "../Map/Map";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 import {
   faEnvelope,
   faPhone,
-  faUser,
   faCircle,
+  faLocationArrow,
 } from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebook,
@@ -177,6 +178,22 @@ class Contact extends Component {
               </span>
             </div>
           </div>
+        </div>
+
+        <div className="contact__map">
+          <div className="map--direction">
+            <h2> Come Visit Us</h2>
+            <p>
+              <span>
+                <FontAwesomeIcon
+                  className="info-icons"
+                  icon={faLocationArrow}
+                />
+              </span>{" "}
+              6000 Universal Blvd, Orlando, FL 32819
+            </p>
+          </div>
+          <Map />
         </div>
       </section>
     );

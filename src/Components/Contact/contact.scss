@@ -1,7 +1,7 @@
 #contactme {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   width: 100%;
 
@@ -25,8 +25,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-items: flex-start;
-    width: 60%;
+    align-items: center;
+    width: 70%;
     padding: 0.5rem;
   }
 
@@ -38,15 +38,15 @@
   }
 
   .contact__top-icons {
-    width: 70%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     margin: 1rem 0;
     padding: 1rem;
 
     .info-icons {
-      font-size: 1.5rem;
+      font-size: 1.2rem;
     }
 
     .social {
@@ -58,23 +58,24 @@
     }
     .top-icons__left {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-evenly;
       align-items: center;
-      width: 55%;
+      width: 70%;
+
       span {
         margin-left: 0.7rem;
       }
     }
     .top-icons__right {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-items: center;
-      width: 40%;
+      width: 25%;
     }
   }
 
   .container__block {
-    width: 70%;
+    width: 90%;
     text-align: center;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     padding: 1rem;
@@ -170,5 +171,33 @@
   .toggle-button,
   .side-draw-button {
     display: none;
+  }
+  .contact__map {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100% !important;
+    background: #ebebeb;
+    padding: 3rem;
+    padding-bottom: 6rem;
+
+    h2 {
+      font-size: 1.5rem;
+      text-transform: uppercase;
+      margin: 1rem !important;
+      letter-spacing: 0.2rem;
+    }
+    p {
+      font-size: 1.2rem;
+      color: #252525;
+    }
+    .map--direction {
+      display: flex;
+      flex-direction: column;
+      justify-items: center;
+      align-items: center;
+    }
   }
 }
