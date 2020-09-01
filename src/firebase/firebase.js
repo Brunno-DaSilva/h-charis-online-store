@@ -14,7 +14,6 @@ const firebaseConfig = {
   measurementId: "G-6N5YC2X9K1",
 };
 
-//Adding authentication user to User's db
 export const createUserProfileDocument = async (userAuth, additionalData) => {
   if (!userAuth) return;
 
@@ -38,6 +37,25 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     }
   }
   return userRef;
+};
+
+export const addCollectionAndDocuments = async (
+  collectionKey,
+  objectsToAdd
+) => {
+  const collectionRef = firestore.collection(collectionKey);
+
+  const batch = firestore.batch();
+
+  //loop through the array and batch this calls together
+  objectsToAdd.forEach((obj) => {
+    const newDocRef = collectionRef.doc();
+    batch.set(newDocRef, obj);
+  });
+
+  // fire off our batch request
+
+  return await batch.commit();
 };
 
 // Initialize the app
