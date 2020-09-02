@@ -24,6 +24,4 @@ class Map extends Component {
   }
 }
 
-// key:AIzaSyBsm0xWefh4RlscjkP3BVX1uCtQcC6odas
-
 export default Map;
