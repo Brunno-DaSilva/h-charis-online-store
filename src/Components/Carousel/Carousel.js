@@ -22,7 +22,6 @@ class Carousel extends Component {
       arrows: true,
       className: "slides",
     };
-
     return (
       <div className="carousel-container">
         <Slider {...settings}>
