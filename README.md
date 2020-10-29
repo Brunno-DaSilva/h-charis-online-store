@@ -18,35 +18,35 @@ Fully functional and interactive, this web application allows users to see a lis
 
 ## Technologies Used:
 
-    React
+- React
 
-    Redux
+- Redux
 
-    GraphQl
+- GraphQl
 
-    FireBase
+- FireBase
 
-    Node
+- Node
 
-    JS
+- JS
 
-    SCSS
+- SCSS
 
-    Stripe
+- Stripe
 
-    Style Components
+- Style Components
 
-    React Slideshow
+- React Slideshow
 
-    FontAwesome
+- FontAwesome
 
-    Cloudinary
+- Cloudinary
 
-    Heroku
+- Heroku
 
-    Adobe Illustrator
+- Adobe Illustrator
 
-    Images retrieved from Unsplash, unDraw, and internet in general.
+- Images retrieved from Unsplash, unDraw, and internet in general.
 
 
 ## Approach:
