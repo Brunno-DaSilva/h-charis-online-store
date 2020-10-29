@@ -5,7 +5,7 @@ import "./menu-item.scss";
 const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
   return (
     <div
-      className={`menu-item ${size}`}
+      className={`menu-item ${size} animated fadeInUp`}
       onClick={() => history.push(`${match.url}${linkUrl}`)}
     >
       <div
@@ -14,9 +14,11 @@ const MenuItem = ({ title, imageUrl, size, history, linkUrl, match }) => {
           backgroundImage: `url(${imageUrl})`,
         }}
       />
-      <div className="content">
-        <h1 className="title">{title.toUpperCase()}</h1>
-        <span className="subtitle">Shop Now</span>
+      <div className="content animated delay-1s fadeInUp">
+        <h1 className="title animated delay-1shalf fadeInUp">
+          {title.toUpperCase()}
+        </h1>
+        <span className="subtitle animated delay-2s fadeInUp">Shop</span>
       </div>
     </div>
   );

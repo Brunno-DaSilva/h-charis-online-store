@@ -27,7 +27,6 @@ class ShopPage extends Component {
 
   componentDidMount() {
     const { updateCollections } = this.props;
-
     const collectionRef = firestore.collection("collections");
 
     collectionRef.get().then((snapshot) => {

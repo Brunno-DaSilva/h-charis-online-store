@@ -23,7 +23,7 @@ class Carousel extends Component {
       className: "slides",
     };
     return (
-      <div className="carousel-container">
+      <div className="carousel-container animated fadeInUp">
         <Slider {...settings}>
           <div>
             <Link to="/shop">

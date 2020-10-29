@@ -1,4 +1,5 @@
 import React from "react";
+
 import MenuItem from "../MenuItem/MenuItem";
 
 import { connect } from "react-redux";
@@ -6,15 +7,15 @@ import { createStructuredSelector } from "reselect";
 
 import { selectDirectorySections } from "../../Redux/Directory/Directory-selectors";
 
-import "./directory.scss";
+import "./nav-bar.scss";
 
-const Directory = ({ sections }) => {
+const NavBar = ({ sections }) => {
   return (
-    <div className="directory-menu animated fadeInUp">
+    <nav className="navbar">
       {sections.map(({ id, ...otherSectionProps }) => (
         <MenuItem key={id} {...otherSectionProps} />
       ))}
-    </div>
+    </nav>
   );
 };
 
@@ -22,4 +23,4 @@ const matStateToProps = createStructuredSelector({
   sections: selectDirectorySections,
 });
 
-export default connect(matStateToProps)(Directory);
+export default connect(matStateToProps)(NavBar);

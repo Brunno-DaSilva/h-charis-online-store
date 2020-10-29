@@ -65,9 +65,9 @@ class Contact extends Component {
         </div>
 
         <div className="contact-container">
-          <h1 className="contact-title animated fadeInLeft">Get in touch</h1>
+          <h1 className="contact-title animated fadeInUp">Get in touch</h1>
 
-          <div className="contact__top-icons">
+          <div className="contact__top-icons animated delay-1s fadeInUp">
             <div className="top-icons__left">
               <div>
                 <FontAwesomeIcon className="info-icons" icon={faPhone} />{" "}
@@ -96,7 +96,7 @@ class Contact extends Component {
             </div>
           </div>
 
-          <div className="container__block animated fadeInRight">
+          <div className="container__block animated delay-1s fadeInUp">
             <div className="contact ">
               {this.state.messageSent ? (
                 <div className="alert animated fadeInUp">
@@ -108,7 +108,7 @@ class Contact extends Component {
 
               <form
                 onSubmit={this.handleSubmit}
-                className="animated delay-1s fadeInRight"
+                className="animated delay-1s fadeInUp"
                 id="contactForm"
               >
                 <div className="name-email">
@@ -182,8 +182,8 @@ class Contact extends Component {
 
         <div className="contact__map">
           <div className="map--direction">
-            <h2> Come Visit Us</h2>
-            <p>
+            <h2 className=" animated delay-1s fadeInUp"> Come Visit Us</h2>
+            <p className=" animated delay-1s fadeInUp">
               <span>
                 <FontAwesomeIcon
                   className="info-icons"

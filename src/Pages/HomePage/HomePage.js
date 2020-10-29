@@ -9,7 +9,7 @@ import "./homepage.scss";
 
 const HomePage = () => {
   return (
-    <div className="homepage">
+    <div className="homepage animated fadeInUp">
       <Carousel />
       <Directory />
       <DealOfTheWeek />

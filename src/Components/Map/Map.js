@@ -13,7 +13,7 @@ class Map extends Component {
   };
   render() {
     return (
-      <div className="map-container">
+      <div className="map-container animated delay-1s fadeInUp">
         <GoogleMapReact
           bootstrapURLKeys={{ key: `AIzaSyBsm0xWefh4RlscjkP3BVX1uCtQcC6odas` }}
           defaultCenter={this.state.center}
