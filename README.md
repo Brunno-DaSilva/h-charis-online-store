@@ -13,7 +13,7 @@ Demo: https://hcharis-store.herokuapp.com/
 
 ## Concept:
 
-Fully functional and interactive, this web application allows users to see a list of products, see details about each product, add them to the cart, increment the number of items and buy the products utilizing Stripe API. The products are separated by category displayed in teh main menu. User can then choose specific products or click on the shop section to visualize the entire list of products. Furthermore, from a technical point of view, this projects aims to utilize a state management tool, Redux, to better serve the application components. For authentication, this projects uses Firebase.  
+Fully functional and interactive, this web application allows users to see a list of products, see details about each product, add them to the cart, increment the number of items and buy the products utilizing Stripe API. The products are separated by category displayed in the main menu. Users can then choose specific products or click on the shop section to visualize the entire list of products. Furthermore, from a technical point of view, this project aims to utilize a state management tool, Redux, to better serve the application components. For authentication, this project uses Firebase.  
 
 
 ## Technologies Used:
