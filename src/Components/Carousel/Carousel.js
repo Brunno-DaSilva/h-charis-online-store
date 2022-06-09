@@ -27,7 +27,9 @@ class Carousel extends Component {
         <Slider {...settings}>
           <div>
             <Link to="/shop">
-              <img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1596833062/h-charis-online-store/3_lmcig0.png " />
+              <div>
+                <img src="https://res.cloudinary.com/duprwuo4j/image/upload/v1596833062/h-charis-online-store/3_lmcig0.png " />
+              </div>{" "}
             </Link>
           </div>
           <div>
