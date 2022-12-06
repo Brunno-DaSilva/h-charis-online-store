@@ -42,9 +42,9 @@
     transition: all ease-in-out 1s;
   }
   .image-container img {
+    width: 100%;
     border-radius: 0.35rem;
   }
-
   .active {
     display: flex;
     opacity: 1;
