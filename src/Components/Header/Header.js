@@ -20,7 +20,9 @@ const Header = ({ hidden }) => {
         <Link className="logo-container" to="/">
           <Logo className="logo" />
         </Link>
-        <SearchArea />
+        <div className="search-container">
+          <SearchArea />
+        </div>
         <div className="options">
           <Link className="option" to="/shop">
             SHOP

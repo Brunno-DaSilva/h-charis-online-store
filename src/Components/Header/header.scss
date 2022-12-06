@@ -1,27 +1,35 @@
 .header-container {
+  box-sizing: border-box !important;
   overflow: hidden;
-
   .header {
     height: 7rem;
-    width: 100vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border: 1px solid #e5e5e5;
+
     .logo-container {
       height: auto;
       width: 11.875rem;
     }
-
+    .search-container {
+      flex: auto;
+    }
     .options {
       height: 100%;
       display: flex;
       align-items: center;
-      justify-content: flex-end;
-      margin: 0 0.5rem;
+      justify-content: space-around;
+      flex: auto;
+      padding-right: 0 0.8rem;
 
       .option {
-        padding: 10px 15px;
+        padding: 0.625rem 0.9375rem;
+        transition: all ease-in-out 0.25s;
+        &:hover {
+          background-color: #ffdcbac3;
+          border-radius: 0.25rem;
+        }
       }
       .colored {
         color: #f08923;

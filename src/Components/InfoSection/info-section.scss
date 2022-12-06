@@ -54,10 +54,13 @@ $main-active-bg: #ffdcba;
   .info-right {
     .right__login {
       width: 100%;
-
       .login__option {
         color: #f08923;
         font-size: 1rem;
+        cursor: pointer;
+        &:hover {
+          color: #765432;
+        }
 
         .option__username {
           font-size: 1rem;
