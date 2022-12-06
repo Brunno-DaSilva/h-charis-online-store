@@ -1,0 +1,33 @@
+$sub-color: #c0c0c0;
+$main-color: #343641;
+$border-color: #e5e5e5;
+$main-active-bg: #ffdcba;
+
+.stripe-container button {
+  background-image: none !important;
+  background: none;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+  width: 10rem;
+  letter-spacing: 1px;
+}
+.stripe-container button span {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 1.5rem;
+  background-image: none !important;
+  background: $main-active-bg;
+  color: $main-color !important;
+  text-decoration: none !important;
+  text-shadow: none;
+  text-transform: uppercase;
+  padding: 1rem !important;
+  border: 1px solid $main-active-bg;
+  transition: all ease-in-out 0.5s;
+}
+
+.stripe-container button span:hover {
+  background-image: none !important;
+  background: #ffffff;
+  border: 1px solid $main-color;
+}

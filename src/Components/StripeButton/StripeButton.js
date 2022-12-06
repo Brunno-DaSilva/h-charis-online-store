@@ -13,7 +13,7 @@ const StripeButton = ({ price }) => {
   };
 
   return (
-    <div>
+    <div className="stripe-container">
       <StripeCheckout
         label="Pay Now"
         name="HCharis"
