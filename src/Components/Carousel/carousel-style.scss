@@ -3,24 +3,51 @@
 .carousel-container {
   max-width: 100%;
   padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  .slick-slide img {
-    width: 100%;
-    margin: auto;
+  .carousel-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    color: #252525;
+    background-color: #ffdcba;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    transition: all ease-in-out 0.5s;
   }
-  .slides {
-    position: relative;
-    .slick-prev,
-    .slick-next {
-      position: absolute;
-      top: 50%;
-    }
-    .slick-prev {
-      left: 5% !important;
-      z-index: 1;
-    }
-    .slick-next {
-      right: 5%;
-    }
+  .carousel-arrow:hover {
+    cursor: pointer;
+  }
+
+  .left-arrow {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: 10;
+  }
+  .right-arrow {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    z-index: 10;
+  }
+
+  .image-container {
+    opacity: 0;
+    transition: all ease-in-out 1s;
+  }
+  .image-container img {
+    border-radius: 0.35rem;
+  }
+
+  .active {
+    display: flex;
+    opacity: 1;
+    transition: all ease-in-out 1s;
   }
 }
