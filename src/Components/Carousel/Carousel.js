@@ -64,7 +64,7 @@ const Carousel = () => {
           >
             {id === currentSlide && (
               <Link to={router}>
-                <img src={imageURL} alt={alt} />
+                <img src={imageURL} alt={alt} loading="eager" />
               </Link>
             )}
           </div>

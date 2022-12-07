@@ -4,8 +4,7 @@ import "./stripe-button.scss";
 
 const StripeButton = ({ price }) => {
   const priceForStripe = price * 100;
-  const publishableKey =
-    "pk_test_51HGsfyAgMG1t5na2FQl7Xc6VqLBfZZtTuFtVpi6Ua6CwdyauEcXToqhUZJWphldPJx2S1ezSoChs6GyaH6KSBhtb00bO1M0Zud";
+  const publishableKey = process.env.REACT_APP_STRIPE_PUBLISHABLE_KEY;
 
   const onToken = (token) => {
     console.log(token);
