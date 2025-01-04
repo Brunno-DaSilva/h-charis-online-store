@@ -2,7 +2,7 @@
 
 ![Image of Yaktocat](https://res.cloudinary.com/duprwuo4j/image/upload/v1598302313/h-charis-online-store/screenshot_20200824_155042_fcpuxf.png)
 
-Demo: https://hcharis-store.herokuapp.com/
+Demo: https://h-charis.netlify.app/
 
 ## Concept:
 
